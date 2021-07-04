@@ -2,6 +2,9 @@
 
 ![oee-sim-logo](logo.png)
 
+![npm bundle size](https://img.shields.io/bundlephobia/min/oee-sim)
+![npm](https://img.shields.io/npm/v/oee-sim)
+
 oee-sim is a package that gives you a function to generate simulated, radomized time series tags. This data can be used to feed simulation OPC tags with data. Those tags can then be used to validate an OEE management system.
 
 ## install
