@@ -1,0 +1,24 @@
+{
+    "name": "oee-sim",
+    "version": "1.0.0",
+    "description": "A simulator that generates tag data to feed an OEE management system",
+    "main": "oee-sim.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/robranders/oee-sim.git"
+    },
+    "keywords": [
+        "OEE",
+        "simulator",
+        "javascript"
+    ],
+    "author": "Robin Branders",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/robranders/oee-sim/issues"
+    },
+    "homepage": "https://github.com/robranders/oee-sim#readme"
+}
