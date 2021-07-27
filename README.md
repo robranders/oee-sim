@@ -18,14 +18,22 @@ npm install oee-sim
 ```javascript
 const { OEE } = require("oee-sim");
 
+let startTime = new Date("2021-01-01T00:00:00Z"),
+    endTime = new Date("2021-01-01T01:00:00Z"),
+    availabilityRate = 0.9,
+    productionRate = 0.7,
+    qualityRate = 0.6,
+    hourProductionTarget = 1332,
+    productionCounterStart = 0;
+
 const { r, p, w } = OEE(
-    new Date("2021-01-01T00:00:00Z"),
-    new Date("2021-01-01T01:00:00Z"),
-    0.9,
-    0.7,
-    0.6,
-    1332,
-    0
+    startTime,
+    endTime,
+    availabilityRate,
+    productionRate,
+    qualityRate,
+    hourProductionTarget,
+    productionCounterStart
 );
 
 console.log({ r, p, w });

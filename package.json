@@ -1,6 +1,6 @@
 {
     "name": "oee-sim",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A simulator that generates tag data to feed an OEE management system",
     "main": "oee-sim.js",
     "scripts": {
